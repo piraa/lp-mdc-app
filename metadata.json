@@ -1,0 +1,5 @@
+{
+  "name": "LP Mapa do Católico",
+  "description": "A landing page for a Catholic app featuring mass schedules, confession times, and geolocation services.",
+  "requestFramePermissions": []
+}
