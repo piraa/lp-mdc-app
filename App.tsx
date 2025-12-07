@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import logoSrc from './imagens/logo-pv-mdc.png';
 import mockupInicialSrc from './imagens/mockup-inicial.png';
+import mockupEvangelho from './imagens/evangelho-mockup.png';
+import mockupBiblia from './imagens/biblia-mockup.png';
+import mockupTerco from './imagens/terco-mockup.png';
+import mockupRezas from './imagens/rezas-mockup.png';
 import {
   MapPin,
   Calendar,
@@ -530,7 +534,7 @@ export default function App() {
                   </ul>
                 </div>
                 <div className="flex-1 flex justify-center">
-                  <img src={mockupInicialSrc} alt="Liturgia Diária" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
+                  <img src={mockupEvangelho} alt="Liturgia Diária" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
                 </div>
               </div>
             </div>
@@ -558,7 +562,7 @@ export default function App() {
                   </ul>
                 </div>
                 <div className="flex-1 flex justify-center">
-                  <img src={mockupInicialSrc} alt="Santo Terço" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
+                  <img src={mockupTerco} alt="Santo Terço" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
                 </div>
               </div>
             </div>
@@ -586,7 +590,7 @@ export default function App() {
                   </ul>
                 </div>
                 <div className="flex-1 flex justify-center">
-                  <img src={mockupInicialSrc} alt="Área de Oração" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
+                  <img src={mockupRezas} alt="Área de Oração" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
                 </div>
               </div>
             </div>
@@ -613,7 +617,7 @@ export default function App() {
                   </ul>
                 </div>
                 <div className="flex-1 flex justify-center">
-                  <img src={mockupInicialSrc} alt="Bíblia 365" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
+                  <img src={mockupBiblia} alt="Bíblia 365" className="w-[280px] md:w-[320px] drop-shadow-2xl rounded-[2.5rem]" />
                 </div>
               </div>
             </div>
